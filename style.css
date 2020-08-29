@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./images/bg-simplify-section-mobile.svg);
+    background-repeat: repeat;
+    font-family: 'Be Vietnam', sans-serif;
+}
+header {
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+}
