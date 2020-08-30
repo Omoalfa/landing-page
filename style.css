@@ -6,9 +6,59 @@ body {
     background-image: url(./images/bg-simplify-section-mobile.svg);
     background-repeat: repeat;
     font-family: 'Be Vietnam', sans-serif;
+    padding: 10% 7%;
+}
+.desktop {
+    display: none;
+}
+#intro {
+    max-width: 100%;
 }
 header {
     background: transparent;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.inner1 {
+    text-align: center;
+}
+.inner1 h2 {
+    margin: 15px;
+    font-size: 1.7em;
+    padding: 0;
+}
+.inner1 p {
+    line-height: 25px;
+    margin: 15px;
+}
+.container {
+    margin: 10% 0;
+}
+.inner2 ul {
+    padding: 0;
+}
+.inner2 ul li {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.inner2 ul li h4 {
+    background-color: hsl(13, 100%, 96%);
+    border: none;
+    border-radius: 70px;
+    margin: 5px 0;
+}
+.inner2 ul li h4 span {
+    padding: 10px;
+}
+.number {
+    display: inline-block;
+    width: 50px;
+    margin: 0;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: hsl(12, 88%, 59%);
+    border: none;
 }
