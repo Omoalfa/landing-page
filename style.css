@@ -6,7 +6,6 @@ body {
     background-image: url(./images/bg-simplify-section-mobile.svg);
     background-repeat: repeat;
     font-family: 'Be Vietnam', sans-serif;
-    padding: 10% 7%;
 }
 .desktop {
     display: none;
@@ -19,6 +18,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
+    padding: 10% 7%;
 }
 .inner1 {
     text-align: center;
@@ -33,10 +33,12 @@ header {
     margin: 15px;
 }
 .container {
-    margin: 10% 0;
+    margin: 20% 0;
+    padding: 10% 7%;
 }
 .inner2 ul {
     padding: 0;
+    line-height-step: ;
 }
 .inner2 ul li {
     list-style: none;
@@ -52,6 +54,12 @@ header {
 .inner2 ul li h4 span {
     padding: 10px;
 }
+.inner2 ul li p {
+    line-height: 150%;
+    padding-left: 4%;
+    font-size: 0.85em;
+    color: hsl(227, 12%, 61%);
+}
 .number {
     display: inline-block;
     width: 50px;
@@ -61,4 +69,118 @@ header {
     border-radius: 20px;
     background-color: hsl(12, 88%, 59%);
     border: none;
+    color: white;
+}
+.started {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 20px;
+    padding: 13px 20px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 7px 7px 7px hsl(13, 100%, 96%);
+}
+.container3 {
+    text-align: center;
+    padding: 10% 7%;
+}
+.container3 div img {
+    width: 80px;
+    float: center;
+    margin-top: -15%;
+}
+.container3 div {
+    background-color: hsl(0, 0%, 98%);
+    width: 340px;
+    padding: 3%;
+    margin: 20% 0;
+}
+.container3 div h4 {
+    margin: 6%;
+}
+.container3 div p {
+    line-height: 150%;
+}
+#container4 {
+    padding: 10%;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    margin: 10% 0 0 0;
+    text-align: center;
+
+}
+#container4 button {
+    color: hsl(12, 88%, 59%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 13px 20px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 7px 7px 7px hsl(12, 88%, 59%);
+    margin: 10%;
+}
+footer#mobile {
+    background-color:hsl(233, 12%, 13%);
+    padding: 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer#mobile input {
+    width: 70%;
+    margin: 2%;
+    background-color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 25px;
+
+}
+footer#mobile button {
+    width: 24%;
+    font-weight: bold;
+    margin: 2% 0%;
+    height: 50px;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    /* padding: 4%; */
+    border: none;
+    border-radius: 25px;
+}
+footer#mobile ul {
+    width: 50%;
+    list-style: none;
+    color: white;
+    margin: 10% 0 0%;
+    line-height: 200%;
+    padding: 10%;
+}
+footer#mobile ul li a {
+    color: white;
+    text-decoration: none;
+}
+#socials li {
+    display: inline-block;
+    color: white;
+    margin: 3%;
+}
+#socials {
+    width: 100% !important;
+    font-size: 2em;
+    padding: 0 !important;
+    margin-bottom: 10% !important;
+}
+footer#mobile div {
+    width: 100%;
+    text-align: center;
+    margin: 10%;
+}
+footer#mobile p {
+    color: hsl(227, 12%, 61%);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+    font-size: 0.7em;
+}
+
+footer#desktop {
+    display: none;
 }
