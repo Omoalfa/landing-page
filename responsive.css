@@ -1,0 +1,63 @@
+@media screen and (min-width : 480px) {
+    .desktop {
+        display: block;
+    }
+    footer#mobile {
+        display: none;
+    }
+    footer#desktop {
+        display: block;
+    }
+    header {
+        padding: 3% 7%;
+
+    }
+    header ul {
+        padding: none;
+        list-style: none;
+        width: 65%;
+        text-align: center;
+    }
+    header ul li {
+        display: inline;
+
+    }
+    header ul li a {
+        text-decoration: none;  
+        margin: 10px;
+    }
+    header h2 {
+        width: 20%;
+    }
+    header div {
+        width: 15%;
+    }
+    header div > .started {
+        float: right;
+    }
+    .container {
+        text-align: left;
+        clear: both;
+        margin: 0;
+        padding: 0 7%;
+    }
+    .inner1.right, .inner2.right {
+        float: right;
+        width: 50%;
+    }
+    .inner1.left {
+        float: left;
+        width: 50%;
+    }
+    .container3 {
+        clear: both;
+       
+    }
+    .slide {
+        margin: 5% 0;   
+        display: inline-block;
+    }
+    .slide img {
+        margin-top: -25%;   
+    }
+}

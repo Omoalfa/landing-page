@@ -84,21 +84,21 @@ header {
     text-align: center;
     padding: 10% 7%;
 }
-.container3 div img {
+.slide img {
     width: 80px;
     float: center;
     margin-top: -15%;
 }
-.container3 div {
+.slide {
     background-color: hsl(0, 0%, 98%);
     width: 340px;
     padding: 3%;
     margin: 20% 0;
 }
-.container3 div h4 {
+.slide h4 {
     margin: 6%;
 }
-.container3 div p {
+.slide p {
     line-height: 150%;
 }
 #container4 {
