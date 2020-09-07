@@ -30,8 +30,10 @@ function slidethrough () {
     if (i > 3){
         i = 0;
      };
-     slide[i].style.display = "none";
+     slide[3].style.display = "none";
      i += 1;
+     let v = Array.from(slide).shift();
+     slide[3] = v;
 };
 if (screen.width > "480px") {
     setInterval(slideShow, 5000);
